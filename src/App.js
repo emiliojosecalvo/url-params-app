@@ -1,14 +1,13 @@
 import './App.css';
-import { Router, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Food from './Food';
 
 function App() {
   return (
     <div className="App">
-      {/* <Router>
-        <Route path='/food/:name' {...routeProps} />
-      </Router> */}
-      <Food name='dog' />
+      <Routes>
+        <Route path='/food/:name' element={<Food />} />
+      </Routes>
     </div>
   );
 }
