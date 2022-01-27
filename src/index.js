@@ -18,3 +18,8 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Swith is been replace for Routes (all Route needs to be wrapped on Routes)
+// exact, component, render dont work anymore. element needs to be use instead
+// Redirect not longer exist, use either Navigate or useNavigate
+// no more match available, now use useParams() to get the url params 
