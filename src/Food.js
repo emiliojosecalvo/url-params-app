@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 function Food() {
     const foodName = useParams().foodName;
-    console.log(foodName)
+    console.log(this.history)
     const url = `https://source.unsplash.com/1600x900/?${foodName}`;
     return (
         <div>

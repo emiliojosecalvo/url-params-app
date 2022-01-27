@@ -23,3 +23,5 @@ reportWebVitals();
 // exact, component, render dont work anymore. element needs to be use instead
 // Redirect not longer exist, use either Navigate or useNavigate
 // no more match available, now use useParams() to get the url params 
+
+//Check this.props.history, redirect, withRouter
